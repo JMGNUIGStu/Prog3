@@ -1,4 +1,9 @@
 package com.mcgirlj.softwareprog3;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Program {
 
 	public static void main(String[] args) {
@@ -8,6 +13,8 @@ public class Program {
 		 * I have added screenshots showing it is correctly added to my buildpath and refereced correctly in pom.xml and
 		 * the project itself so I have opted for java.Time
 		 */
+		
+		
 	}
 
 }

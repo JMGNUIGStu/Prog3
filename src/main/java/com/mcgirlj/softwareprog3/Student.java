@@ -95,6 +95,16 @@ public class Student {
     	return modules;
     }
     
+    public String getModulesString(List<Module> moduleList)
+	{
+		String moduleString = "";
+		for(Module name:moduleList)
+		{
+			moduleString = moduleString + " " + name.getModuleName();
+		}
+		return moduleString;
+	}
+    
     public void addModule(Module module)
     {
     	modules.add(module);
