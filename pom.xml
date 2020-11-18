@@ -14,16 +14,11 @@
     </properties>
 	
 	<dependencies>
-		<dependency>
+		<!--dependency>
 			<groupId>joda-time</groupId>
 			<artifactId>joda-time</artifactId>
 			<version>2.9.2</version>
-		</dependency>
-		<dependency>
-	    <groupId>com.github.JMCNUIGStu</groupId>
-	    <artifactId>Repo</artifactId>
-	    <version>Tag</version>
-	</dependency>
+		</dependency-->
 	<dependency>
 	<groupId>junit</groupId>
 	<artifactId>junit</artifactId>
@@ -47,10 +42,10 @@
                 <version>3.2.4</version>
                 <executions>
                     <execution>
-                        <phase>package</phase>
+                        <!--phase>package</phase>
                         <goals>
                             <goal>shade</goal>
-                        </goals>
+                        </goals-->
                         <configuration>
                             <transformers>
                                 <transformer
